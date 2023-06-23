@@ -8,7 +8,7 @@ namespace H_M_22
 {
     internal abstract class Card_abstract
     {
-        public Card_abstract(int num,string name,int money) 
+        public Card_abstract(string num,string name,int money) 
         {
             Number = num;
             HolderName = name;
@@ -16,7 +16,7 @@ namespace H_M_22
         }
 
         public abstract int Bonus { get; set; }
-        public int Number { get; set; }
+        public string Number { get; set; }
         public string HolderName { get; set; }
         public int Money { get; set; }
 

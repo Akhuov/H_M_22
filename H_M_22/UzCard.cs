@@ -9,7 +9,7 @@ namespace H_M_22
 {
     internal class UzCard : Card_abstract
     {
-        UzCard(int num, string name, int money) : base(num, name, money){ }
+        public UzCard(string num, string name, int money) : base(num, name, money){ }
 
         public override int Bonus { get; set; } = 5;
 
